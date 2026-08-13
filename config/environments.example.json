@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "environments": [
+    {
+      "id": "non-production",
+      "name": "Non Production",
+      "region": "us-east-1",
+      "clientId": "replace-with-your-oauth-client-id",
+      "clientSecret": "replace-with-your-oauth-client-secret"
+    },
+    {
+      "id": "production",
+      "name": "Production",
+      "region": "us-east-1",
+      "clientId": "replace-with-your-oauth-client-id",
+      "clientSecret": "replace-with-your-oauth-client-secret"
+    }
+  ]
+}

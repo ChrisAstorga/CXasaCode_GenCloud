@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Frontend build
+dist/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+config/environments.local.json
+config/*.tmp
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+.terraform.lock.hcl
+
+# Exported packages and uploaded configuration
+*.zip
+exported-package/
+uploads/
+artifacts/
+release/
+
+# Logs
+*.log
+npm-debug.log*
+genesyscloud_stack_traces.log
+
+# IDE and Windows files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
